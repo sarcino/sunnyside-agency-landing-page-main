@@ -149,6 +149,7 @@ nav ul li a {
 
 .box1 {
     grid-area: area-1;
+    background-color: #fffbf8;
 }
 
 .image2 {
@@ -157,6 +158,7 @@ nav ul li a {
 
 .box2 {
     grid-area: area-4;
+    background-color: #fffbf8;
 }
 
 .box3 {
@@ -206,6 +208,10 @@ nav ul li a {
 .box3 div,
 .box4 div {
     padding: 30px;
+}
+
+.testimonials {
+    background-color: #fffbf8;
 }
 
 .testimonials div {
