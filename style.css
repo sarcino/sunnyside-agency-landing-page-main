@@ -31,6 +31,7 @@ header {
     background: url("images/desktop/image-header.jpg") no-repeat center center;
     background-size: cover;
     height: 600px;
+    width: 100vw;
 }
 
 h1,
@@ -132,6 +133,7 @@ nav ul li a {
 .mosaic {
     position: relative;
     margin: 0;
+    width: 100vw;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-auto-rows: auto;
@@ -226,7 +228,6 @@ nav ul li a {
 }
 
 .testimonials .position {
-    color: var(--greyish-blue);
     font-size: 16px;
 }
 
@@ -258,6 +259,7 @@ footer {
     text-align: center;
     padding: 100px 0 10px 0;
     font-family: var(--font-barlow);
+    width: 100vw;
 }
 
 footer img:first-child {
@@ -273,7 +275,7 @@ footer img:first-child {
 }
 
 .links li a {
-    color: #2f7666;
+    color: #225a4c;
     text-decoration: none;
     margin-right: 40px;
 }
@@ -293,7 +295,7 @@ footer img:first-child {
 
 .attribution,
 .attribution a {
-    color: var(--white);
+    color: #000000;
     font-size: 14px;
     margin-top: 50px;
     letter-spacing: 0.1rem;
@@ -326,7 +328,7 @@ footer img:first-child {
     header {
         background-image: url("images/mobile/image-gallery-orange.jpg") no-repeat center center;
         background-size: cover;
-        width: 100%;
+        width: 100vw;
         height: 1000px;
     }
 
@@ -334,6 +336,7 @@ footer img:first-child {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        width: 100vw;
     }
 
     .mosaic picture img {
