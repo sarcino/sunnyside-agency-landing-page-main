@@ -183,6 +183,7 @@ nav ul li a {
     max-width: 50vw;
     padding: 0;
     margin: 0;
+    background-color: #fffbf8;
 }
 
 .box3 {
@@ -237,6 +238,8 @@ nav ul li a {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    background-color: #fffbf8;
+    padding-bottom: 100px;
 }
 
 .gallery {
@@ -244,7 +247,6 @@ nav ul li a {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100vw;
-    padding-top: 100px;
 }
 
 .gallery img {
