@@ -209,6 +209,10 @@ nav ul li a {
     padding: 30px;
 }
 
+.testimonials {
+    background-color: #fffbf8;
+}
+
 .testimonials div {
     max-width: 25vw;
     text-align: center;
