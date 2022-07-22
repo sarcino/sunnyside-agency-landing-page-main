@@ -257,9 +257,10 @@ nav ul li a {
 footer {
     background-color: #90d4c5;
     text-align: center;
-    padding: 100px 0 10px 0;
+    padding: 100px 10px 10px 10px;
     font-family: var(--font-barlow);
     width: 100vw;
+
 }
 
 footer img:first-child {
